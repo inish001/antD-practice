@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* #navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    height: 65px;
+    background-color: gray;
+    background-color: red;
+} */
+
+.title{
+    display: flex;
+    background-color: rgb(29, 210, 220);
+    color: rgb(55, 33, 155);
+    font-weight: 700;
+    justify-content: center;
+    align-items: center;
+    margin-top: 34px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.ant-card-meta-title:hover{
+    color: orangered;
+} 
+/* .ant-card-meta-description:hover{
+    color: green; */
+/* } */
+/* .btn{
+    margin-top: ;
+} */
+
+.alive .ant-card-meta-description:hover{
+    color: green ;
+}
+/* .dead .ant-card-meta-description{
+    color: red;
+} */
+.dead .ant-card-meta-description:hover{
+    color: red;
+}
+.unknown .ant-card-meta-description:hover{
+    color: black;
+}
+.input{
+    border: 2px solid rgb(26, 34, 181);
+    margin-left: 34px;
+}
+.btn{
+    color: aqua;
+    border: 2px solid black;
+    margin-left: 10px;
+}
